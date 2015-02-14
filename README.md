@@ -7,6 +7,16 @@ I'm shamelessly stealing Luke's idea for the third time (see his [blog post][des
 ### Really though ...
 This is for personal use/learning/experimenting, so just try not to laugh if you wind up here somehow.
 
+- - - - -
+
+## Adding \& Updating
+Don't forget that you can add things by:
+```
+cd .vim
+git submodule add [ GITprojectOFvimPLUGINurl ] bundle/[ PLUGINname ]
+git submodule init
+git submodule update
+```
 
 [des1]: http://www.terminally-incoherent.com/blog/2012/03/12/putting-your-vim-files-under-version-control/ "Putting your vim files under version control"
 [des2]: https://github.com/maciakl/.vim "maciakl/.vim"
