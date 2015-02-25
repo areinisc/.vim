@@ -17,7 +17,9 @@ git submodule init
 git submodule update
 ```
 
-Though this is a work in progress, the master branch should always be stable.
+### Releases
+
+Though this is a work in progress, the master branch should always be stable. It should be comprised of tagged releases.
 
 
 
