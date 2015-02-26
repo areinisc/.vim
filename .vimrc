@@ -8,9 +8,9 @@
 " [a2]: github.com/maciakl/.vim "maciakl's .vim"
 " ------------------------------------------------------------------------
 
-"======= Runtime Settings ========
-runtime bundle/vim-pathogen/autoload/pathogen.vim
-execute pathogen#infect()
+" ------------------------------------------------------------------------
+" ======= Runtime Settings ========
+" ------------------------------------------------------------------------
 syntax on
 filetype plugin indent on
 
@@ -26,6 +26,37 @@ set mouse=a
 " change the leader key to <space>
 nnoremap <space> <nop>
 let mapleader="\<space>"
+
+
+" ------------------------------------------------------------------------
+" ======= Swap Files ========
+" ------------------------------------------------------------------------
+
+set noswapfile     " suppress creation of swap files
+set nobackup       " suppress creation of backup files
+set nowb           " suppress creation of ~ files
+
+" ------------------------------------------------------------------------
+" ======= Filetypes ========
+" ------------------------------------------------------------------------
+
+" disable folding in Markdown files
+let g:vim_markdown_folding_disabled=1
+
+" Starting with Vim 7, the filetype of empty .tex files defaults to 'plaintex'
+" instead of 'tex', which results in vim-latex not being loaded. This changes
+" the default filetype back to 'tex':
+let g:tex_flavor='latex'
+
+" ------------------------------------------------------------------------
+" ======= Pathogen ========
+" ------------------------------------------------------------------------
+" Plugin manager:
+" Lets you store your plugins in individual folders inside the .vim/bundle
+" directory (also as git submodules). This initializes it and loads all
+" plugins:
+runtime bundle/vim-pathogen/autoload/pathogen.vim
+execute pathogen#infect()
 
 
 syntax enable
