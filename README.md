@@ -1,7 +1,7 @@
 # .vim
 Whether you're me and you're wanting a familiar Vim on a new computer, or you just want to experience vim through my eyes---rest assured, you've come to the right place. This remote will enable you to soar ever higher on you very own Vim cloud.
 
-- - -
+-----
 
 ## Want .vim? Do this:
 
@@ -39,23 +39,27 @@ git rm path/to/module
 git commit -am "Removed submodule X"
 ```
 Submodule resources:
+
 + [Mastering Git submodules][sm1] by Christophe Porteneuve
 
 [sm1]: https://medium.com/@porteneuve/mastering-git-submodules-34c65e940407 "Mastering Git submodules"
 
-- - -
+-----
 
-- - -
+-----
 
-- - - 
+-----
+
 ------------------------------------------------------------------------
+
 This work borrows HEAVILY from [Luke Maciak][a1] and his [.vim repo][a2].
 Thank you.
 [a1]: www.terminally-incoherent.com "Terminally Incoherent"
 [a2]: www.github.com/maciakl/.vim "maciakl's .vim"
+
 ------------------------------------------------------------------------
 
-- - -
+-----
 # THIS WILL YET REMAIN FOR REMINDING US HOW FAR WE HAVE COME!
 
 ## Description
@@ -64,7 +68,7 @@ I'm shamelessly stealing Luke's idea for the third time (see his [blog post][des
 ### Really though ...
 This is for personal use/learning/experimenting, so just try not to laugh if you wind up here somehow.
 
-- - - - -
+---------
 
 ## Adding \& Updating
 Don't forget that you can add things by:
