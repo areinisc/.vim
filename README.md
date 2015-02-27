@@ -22,14 +22,38 @@ git submodule update
 Though this is a work in progress, the master branch should always be stable. It should be comprised of tagged releases.
 
 
+### Submodules: we've got 'em
 
+To add a plugin as a submodule:
+```
+cd .vim
+git submodule add [ GITprojectOFvimPLUGINurl ] bundle/[ PLUGINname ]
+git submodule init
+git submodule update
+```
 
+To permanently remove a submodule:
+```
+git submodule deinit path/to/module
+git rm path/to/module
+git commit -am "Removed submodule X"
+```
+Submodule resources:
++ [Mastering Git submodules][sm1] by Christophe Porteneuve
+
+[sm1]: https://medium.com/@porteneuve/mastering-git-submodules-34c65e940407 "Mastering Git submodules"
 
 - - -
 
 - - -
 
 - - - 
+------------------------------------------------------------------------
+This work borrows HEAVILY from [Luke Maciak][a1] and his [.vim repo][a2].
+Thank you.
+[a1]: www.terminally-incoherent.com "Terminally Incoherent"
+[a2]: www.github.com/maciakl/.vim "maciakl's .vim"
+------------------------------------------------------------------------
 
 - - -
 # THIS WILL YET REMAIN FOR REMINDING US HOW FAR WE HAVE COME!
