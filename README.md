@@ -1,5 +1,10 @@
 # .vim
-Whether you're me and you're wanting a familiar Vim on a new computer, or you just want to experience vim through my eyes---rest assured, you've come to the right place. This remote will enable you to soar ever higher on you very own Vim cloud.
+Whether you're me and you're wanting a familiar Vim on a new computer, or you
+just want to experience vim through my eyes---rest assured, you've come to the
+right place. This remote will enable you to soar ever higher on you very own
+Vim cloud.
+
+Now available in sanity flavor.
 
 -----
 
@@ -19,7 +24,8 @@ git submodule update
 
 ### Releases
 
-Though this is a work in progress, the master branch should always be stable. It should be comprised of tagged releases.
+Though this is a work in progress, the master branch should always be stable.
+It should be comprised of tagged releases.
 
 
 ### Submodules: we've got 'em
