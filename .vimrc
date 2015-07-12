@@ -123,4 +123,22 @@ highlight ColorColumn guibg=lightyellow ctermbg=227
 set ttimeoutlen=50                           " removes pause when leaving insert mode
 set laststatus=2                             " forces statusline to appear all the time
 let g:airline#extensions#tabline#enabled = 1 " displays all buffers when one tab is open
-let g:airline_theme='solarized'                " sets airline_theme to solarized theme
+let g:airline_theme='solarized'              " sets airline_theme to solarized theme
+
+" ------------------------------------------------------------------------
+" ======= LaTeX ========
+" ------------------------------------------------------------------------
+
+" IMPORTANT: grep will sometimes skip displaying the file name if you
+" search in a singe file. This will confuse Latex-Suite. Set your grep
+" program to always generate a file-name.
+set grepprg=grep\ -nH\ $*
+
+" OPTIONAL: This enables automatic indentation as you type.
+filetype indent on
+
+" OPTIONAL: Starting with Vim 7, the filetype of empty .tex files defaults to
+" 'plaintex' instead of 'tex', which results in vim-latex not being loaded.
+" The following changes the default filetype back to 'tex':
+ let g:tex_flavor='latex'
+
